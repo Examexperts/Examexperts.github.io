@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Instant meta redirect -->
+    <meta http-equiv="refresh" content="0; url=https://hsc-it-portal.imranshaikh.workers.dev/">
+    <!-- Instant JavaScript redirect -->
+    <script>
+        window.location.href = "https://hsc-it-portal.imranshaikh.workers.dev/";
+    </script>
+    <title>Redirecting to HSC IT Portal...</title>
+</head>
+<body>
+    <p>If you are not redirected automatically, <a href="https://hsc-it-portal.imranshaikh.workers.dev/">click here to go to the HSC IT Portal</a>.</p>
+</body>
+</html>
