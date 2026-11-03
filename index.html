@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HSC IT Portal | Exam Experts</title>
+    <title>HSC IT Portal by Exam Experts</title>
     <style>
-        /* Removes all margins and scrollbars from the main page */
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        /* Forces the iframe to take up the exact full screen */
+        /* force margins */
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #0f172a; }
+        /* force fullscreen  */
         iframe { width: 100%; height: 100%; border: none; display: block; }
     </style>
 </head>
 <body>
-    <iframe src="https://hsc-it-portal.imranshaikh.workers.dev/" title="HSC IT Portal"></iframe>
+    <script>
+        // Base64 encoded version of your worker URL: https://hsc-it-portal.imranshaikh.workers.dev/
+        const targetUrl = atob("aHR0cHM6Ly9oc2MtaXQtcG9ydGFsLmltcmFuc2hhaWtoLndvcmtlcnMuZGV2Lw==");
+        
+        const iframe = document.createElement('iframe');
+        iframe.src = targetUrl;
+        iframe.title = "HSC IT Portal";
+        document.body.appendChild(iframe);
+    </script>
 </body>
 </html>
